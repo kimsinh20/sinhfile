@@ -1,0 +1,80 @@
+
+body {
+    font-family: tahoma;
+    font-size: 14px;
+    width: 1000px;
+    margin: 16px auto;
+}
+#menu_top {
+    background: chocolate;
+    height: 90px;
+}
+#vien_dau {
+    background:#ccc;
+    height: 35px;
+    font-size: 16px;
+    color: black;
+}
+#banner {
+    background: blue;
+    height: 300px;
+    width: 1000px;
+}
+#main #left {
+    margin-top: 10px;
+    background: wheat;
+    width: 700px;
+    min-height: 400px;
+    float:left;
+}
+#main #right {
+    margin-top: 10px;
+    background: white;
+    width: 300px;
+    min-height: 400px;
+    float:left;
+    text-align: center;
+}
+#ket_thuc {
+    margin: 10px;
+    height: 50px;
+    background: white;
+    width: 100%;
+    clear: both;
+}
+#menu_top ul {
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul li {
+    list-style: none;
+    float: left;
+    border-right: 1px solid white;
+}
+#menu_top ul li:last-child {
+    border-right:none;
+}
+#menu_top ul li a {
+    text-decoration:none;
+    display:inline-block;
+    height: 100px;
+    line-height: 80px;
+    color:whitesmoke;
+    padding: 0px 40px 0px 53.54px;
+    font-size:16px;
+    text-align: center;
+}
+#menu_top ul li a:hover {
+    background-color:dimgray;
+    height: 90px;
+}
+#banner img {
+    height: 300px;
+    width: 1000px;
+}
+#main #right form input[type=text] {
+    width: 60%;
+    padding: 10px 20px;
+    margin: 13px 0;
+    box-sizing: border-box;
+  }
